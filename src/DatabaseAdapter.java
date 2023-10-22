@@ -3,7 +3,7 @@ public class DatabaseAdapter extends OldDatabase {
     DatabaseAdapter(NewDatabase newDB){
         this.newDB = newDB;
     }
-    void fetchPatientData(String patientId){
+    public void fetchPatientData(String patientId){
         newDB.retrievePatientInformation(patientId);
     }
 }

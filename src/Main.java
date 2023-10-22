@@ -5,7 +5,7 @@ public class Main {
         NewDatabase newDB = new NewDatabase();
         DatabaseAdapter databaseAdapter = new DatabaseAdapter(newDB);
         databaseAdapter.fetchPatientData("12345");
-        newDB.retrievePatientInfo("67890");
+        newDB.retrievePatientInformation("67890");
 
     }
 }
