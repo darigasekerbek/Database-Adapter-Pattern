@@ -44,7 +44,7 @@ Demonstrates fetching patient data using both the old system and the new system.
 
 Clone the repository:
 
-git clone https://github.com/darigasekerbek/database-adapter-pattern.git
+git clone https://github.com/darigasekerbek/Database-Adapter-Pattern.git
 
 Navigate to the project directory:
 
